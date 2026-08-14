@@ -1,0 +1,11 @@
+projects:
+  - id: cub200
+    name: CUB-200 Baselines
+    status: active
+    week_started: 2026-W33
+    page: ./cub200.md
+  - id: animalclue
+    name: AnimalClue Exploration
+    status: planned
+    week_started: 2026-W33
+    page: ./animalclue.md
