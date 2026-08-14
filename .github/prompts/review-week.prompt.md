@@ -1,4 +1,4 @@
-Review the current week's `weeks/YYYY-Www/README.md` and provide:
+Review the current week's `weeks/YYYY/MON_WEEKn.md` and provide:
 
 1. What changed in understanding this week.
 2. Which experiments need analysis follow-up.

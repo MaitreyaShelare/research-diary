@@ -1,47 +1,17 @@
 ---
 type: weekly
-week: YYYY-Www
-projects: []
-datasets: []
-tags: []
+year: {YEAR}
+month: {MONTH}
+week_in_month: {WEEK_IN_MONTH}
 ---
 
-# YYYY-Www Weekly Research Log
+# {MONTH}_WEEK{WEEK_IN_MONTH}
 
-## Research Focus
-
-## Objectives
-- [ ] ⬜ Planned —
-- [ ] 🔄 In Progress —
-- [ ] ✅ Completed —
-- [ ] 🔬 Needs Analysis —
-- [ ] ⏸️ Blocked —
-- [ ] ❌ Dropped —
-
-## Experiments
-| Status | Experiment | Project | Dataset | Purpose | Link |
-|---|---|---|---|---|---|
-| ⬜ Planned |  |  |  |  |  |
-
-## Key Results
-
-## Observations
-
-## Insights / Hypotheses
-
-## Problems / Blockers
-
-## Decisions
-
-## Questions for Guide
-
-## Next Week
-
-## Research State
-### What we know
-
-### What we don't know
-
-### Current hypothesis
-
-### Evidence needed
+- What was done:
+  - 
+- Links:
+  - Code:
+  - W&B:
+  - Visualizations / results:
+- What to do next:
+  - 

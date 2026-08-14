@@ -49,13 +49,19 @@ def load_experiments() -> list[dict[str, str | list[str]]]:
 
 def write_week_view(experiments: list[dict[str, str | list[str]]]) -> None:
     by_week: dict[str, list[dict[str, str | list[str]]]] = defaultdict(list)
+    week_links: dict[str, str] = {}
     for exp in experiments:
         week = str(exp.get("week", "unknown"))
         by_week[week].append(exp)
+        weekly_note = exp.get("weekly_note")
+        if isinstance(weekly_note, str) and weekly_note:
+            week_links[week] = f"../{weekly_note}"
+        else:
+            week_links.setdefault(week, f"../weeks/{week}/README.md")
 
     lines = ["# Experiments by Week", ""]
     for week in sorted(by_week):
-        lines.append(f"- [{week}](../weeks/{week}/README.md)")
+        lines.append(f"- [{week}]({week_links.get(week, f'../weeks/{week}/README.md')})")
         for exp in sorted(by_week[week], key=lambda x: str(x.get("experiment_id", ""))):
             lines.append(f"  - [{exp['experiment_id']}]({exp['path']})")
     lines.append("")

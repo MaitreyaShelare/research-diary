@@ -2,6 +2,7 @@
 type: experiment
 experiment_id: 2026-W33-cub200-dinov2-baseline
 week: 2026-W33
+weekly_note: weeks/2026/AUG_WEEK1.md
 status: completed
 project: cub200
 dataset: cub-200-2011

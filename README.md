@@ -11,9 +11,9 @@ This is a **Markdown-first research diary**: the human-readable layer for tracki
 - **This diary** captures narrative context: why experiments were run, what was learned, what changed, and what to do next.
 
 ## Folder guide
-- `weeks/` — chronological weekly logs (primary timeline).
-- `experiments/` — one page per experiment with links to code and W&B.
+- `weeks/` — chronological weekly logs as `weeks/YYYY/MON_WEEKn.md` (primary timeline).
+- `experiments/` — optional legacy experiment pages with external links.
 - `projects/` — project summaries and registry.
 - `views/` — generated and curated index pages.
 - `scripts/` — lightweight utilities to create entries and rebuild views.
-- `.github/prompts/` — prompt templates for weekly and experiment workflows.
+- `.github/prompts/` — prompt templates for weekly workflows.
